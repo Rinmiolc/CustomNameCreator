@@ -1,5 +1,5 @@
 # © 2024 Rinmiolc All rights reserved.
-#
+# Version 1.0.1(2024.6.15)
 # This software is licensed under the MIT License.
 # You may obtain a copy of the License at
 # https://opensource.org/licenses/MIT
