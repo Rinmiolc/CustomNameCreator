@@ -1,5 +1,6 @@
 # © 2024 Rinmiolc All rights reserved.
-# Version 1.0.1(2024.6.15)
+# Version 1.0.2(2024.6.15)
+# pyinstaller -i img/favicon.ico  --onefile --noconsole name_generator.py
 # This software is licensed under the MIT License.
 # You may obtain a copy of the License at
 # https://opensource.org/licenses/MIT
@@ -31,7 +32,7 @@ class NameGeneratorApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle('名字生成器')
-        icon = QIcon('favicon.ico')
+        icon = QIcon('img/favicon.ico')
         self.setWindowIcon(icon)
         self.setGeometry(100, 100, 400, 300)
         self.layout = QVBoxLayout()
@@ -92,3 +93,4 @@ if __name__ == '__main__':
     ex = NameGeneratorApp()
     ex.show()
     sys.exit(app.exec_())
+
